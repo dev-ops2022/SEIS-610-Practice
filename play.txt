@@ -1,14 +1,22 @@
-Notepad++ v8.3.3 regression-fix, bug-fixes and new enhancements:
+@startuml
 
-1.  Fix crash regression on opening a session file.
-2.  Enhance stability: add new ability (plugin compatibility) for not loading incompatible plugins.
-3.  Fix deleting the folded line makes folded (hidden) content disappeared.
-4.  Re-enable ability to center the FindReplaceDlg on Notepad++ main window.  
-5.  Fix extension not appended issue while saving with ENTER under Windows 7. 
-6.  Fix preferences dialog "Dark Mode->Customize tone" RTL alignment issue in dark mode.
-7.  Fix disabled static texts of Preferences blurry issue in Dark mode.
-8.  Add 4 API for custom auto-indentation and getting current macro status.
-9.  Add new AutoComplete icon for distinguishing functions from normal keywords.
-10. Fix Plugin Admin close issue after typing ENTER.
-11. Show current and new version on update dialog.
+actor human
 
+human->pitboss: I would like to play a game
+pitbos->artiest:Querry_human(name)
+artist->human:What is your name?
+human->pitboss:	My_name_is_Don
+pitboss->clerk:	Give me info on (Don)
+clerk-->pitboss: info
+pitboss->artist: Display_Info_and_ask_how_many_pairs(info)
+artist->human: how many pairs
+human->pitboss:	I would like 6 pairs
+pitboss->dealer: prepare_game(6) 
+dearler->pitboss: here is your game
+pitboss->artist:Display(game)
+human->pitboss:	begin my game
+pitboss->timerkeeper:begin_timing
+
+hello->pitboss
+
+@enduml
